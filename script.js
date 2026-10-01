@@ -11,9 +11,9 @@ class Person {
 		return this.#name;
 	}
 
-	set age(value){
-		if(value > 0){
-			this.#age = value;
+	set age(age){
+		if(age > 0){
+			this.#age = age;
 		}	
 	}
 	
